@@ -1,4 +1,4 @@
-(function(window) {
+(function(window, Math) {
 
   /* Define constants, to improve compression */
   var UNDEFINED = 'undefined',
@@ -91,4 +91,4 @@
     maxLength: maxLength
   };
 
-})(window);
+})(window, Math);
